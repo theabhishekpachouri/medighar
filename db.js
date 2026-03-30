@@ -4,7 +4,7 @@ const { Pool } = require('pg');
 const pool = new Pool({
   user: 'postgres',           // Default user postgres hota hai
   host: 'localhost',          // Aapka local computer
-  database: 'pharmacy_db',    // Jo DB aapne SQL mein banaya tha
+  database: 'pharm',    // Jo DB aapne SQL mein banaya tha
   password: 'password ', // Jo naya password aapne set kiya
   port: 5432,                 // PostgreSQL ka default port
 });
